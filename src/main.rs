@@ -1,4 +1,7 @@
-use good_web_game as ggez;
+use bevy::prelude::*;
 
 fn main() {
+    App::new()
+        .add_plugins(DefaultPlugins)
+        .run();
 }
