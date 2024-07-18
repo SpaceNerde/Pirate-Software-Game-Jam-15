@@ -1,4 +1,5 @@
 use bevy::prelude::*;
+use game::GamePlugin;
 
 fn main() {
     let mut app = App::new();
@@ -11,6 +12,7 @@ fn main() {
         }),
         ..default()
     }));
+    app.add_plugins(GamePlugin);
 
     app.run();
 }
