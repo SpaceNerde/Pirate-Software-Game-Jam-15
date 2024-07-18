@@ -11,4 +11,6 @@ fn main() {
         }),
         ..default()
     }));
+
+    app.run();
 }
